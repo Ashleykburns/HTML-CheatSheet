@@ -1,0 +1,97 @@
+html {
+  height: 100%;
+}
+body {
+  background-color: hsl(229, 100%, 39%);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+header.page-header {
+  color: #fff;
+  font: bold calc(1em + 2 * (100vw - 120px) / 100) "Lobster", cursive;
+  text-shadow: #000 0 0 0.2em;
+  text-align: center;
+}
+main {
+  color: #fff;
+  font: bold calc(1em + 2 * (100vw - 120px) / 100) "Lobster", cursive;
+  text-shadow: #000 0 0 0.2em;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+details > summary {
+  margin: auto;
+  padding: 5px;
+  list-style: none;
+  font: bold calc(1em + 2 * (100vw - 120px) / 100) "Lobster", cursive;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+details > summary:hover {
+  color: #fff;
+  cursor: pointer;
+  text-shadow: 0px 0px 30px #fff;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+ol {
+  padding: 0;
+}
+li {
+  list-style: none;
+  cursor: pointer;
+  font-weight: lighter;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+li:hover {
+  text-shadow: 0px 0px 30px #fff;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+footer.page-footer {
+  margin-top: auto;
+  padding: 20px 0;
+  color: #fff;
+  font: bold calc(1em + 2 * (100vw - 120px) / 100) "Lobster", cursive;
+  text-shadow: #000 0 0 0.2em;
+  text-align: center;
+}
+a:link {
+  text-decoration: none;
+  color: #fff;
+}
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  text-decoration: underline;
+}
+::-webkit-scrollbar {
+  width: 1.5em;
+}
+::-webkit-scrollbar-track {
+  background: hsl(229 100% 50% / 0.4);
+  border-radius: 100vw;
+  margin-block: 0.5em;
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(229 100% 35% / 1);
+  border-radius: 100vh;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(229 100% 49% / 1);
+}
